@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to HnMVC
 
 You can use the [editor on GitHub](https://github.com/2011fuzhou/HnMVC/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
