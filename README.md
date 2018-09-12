@@ -90,7 +90,7 @@ For more details see [Gitbook documentation](https://2011fuzhou.gitbook.io/hnmvc
 ### Support or Contact
 
 Contact me 
-[twitter:@peiqiangzhou](https://twitter.com/peiqiangzhou) 
-[weibo:@bv小强](https://weibo.com/bellusvita)
-email:bellusvita@163.com
-qq:402599721
+- [twitter:@peiqiangzhou](https://twitter.com/peiqiangzhou) 
+- [weibo:@bv小强](https://weibo.com/bellusvita)
+- email:bellusvita@163.com
+- qq:402599721
