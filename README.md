@@ -9,7 +9,36 @@ HnMVC is a super-lightweight mvc framework base on delegate and event, written s
 ![image](https://github.com/2011fuzhou/HnMVC/blob/master/HnMVC.png)
 
 ### To get started:
-**1.Create Contex**
+ **1.Create Contex**
+  - Create a new empty gameobject and add a c# script component.
+  - Create a contex class drive from class "HnFramework.MVC.Contex", e.g. "XXContex".
+  - Override function "InitCommand".
+ 
+ **2.Create Command**
+  - Create a SceneCommand or StartCommand class drive from class "HnFramework.MVC.Command", e.g. "XXCommand".
+  - Override function "InitModel".
+  - Call function "BindCommand(new XXCommand(this));" in the function "InitCommand" of "XXContex".
+  - Create other bussiness Command class drive from class "HnFramework.MVC.Command".
+  - Override function "OnStart", and add listener.
+  
+ **3.Create Model**
+  - Create model class drive from class "HnFramework.MVC.Model", e.g. "XXModel".
+  - Call function "BindModel(enum, XXModel.GetSingleton<XXModel>());" in the function "InitModel" of "SceneCommand".
+  
+ **4.Create Mediator**
+  - Create mediator class drive from class "HnFramework.MVC.Mediator", e.g. "XXMediator".
+  - Override function "OnInit", then get view class and add listener.
+  ```markdown
+  public override void OnInit() {
+        _cubeView = View as CubeView;
+        if (null == _cubeView) {
+            Debug.LogError("cube view is null");
+            return;
+        }
+        AddListener(MediatorEvent.GetScore, OnGetScore);
+    }
+  ```
+  
 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
