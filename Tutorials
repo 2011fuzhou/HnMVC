@@ -1,0 +1,7 @@
+## Welcome to HnMVC
+
+HnMVC is a super-lightweight mvc framework base on delegate and event, written specifically for C# and Unity.
+
+**Key features**
+- Event system
+- View mediation
