@@ -69,7 +69,7 @@ HnMVC is a super-lightweight mvc framework base on delegate and event, written s
   ```
   
  **5.Create View**
-  - Create view class drive from class "HnFramework.MVC.View", e.g. "XXView".
+  - Create view class drive from class "HnFramework.MVC.View", e.g. "XXView" and add the script component to any ui gameobject.
   - Override function "InitMediator", and bind mediator.
   ```markdown
   protected override void InitMediator() {
