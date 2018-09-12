@@ -82,14 +82,15 @@ HnMVC is a super-lightweight mvc framework base on delegate and event, written s
   - You can call function "DispatchMediator(enum)" to update UI in command class.
 
 
-###  [Documentation](http://baidu.com):
+###  [Documentation](https://2011fuzhou.gitbook.io/hnmvc/):
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details see [Gitbook documentation](https://2011fuzhou.gitbook.io/hnmvc/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/2011fuzhou/HnMVC/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Contact me 
+[twitter:@peiqiangzhou](https://twitter.com/peiqiangzhou) 
+[weibo:@bv小强](https://weibo.com/bellusvita)
+email:bellusvita@163.com
+qq:402599721
