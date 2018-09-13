@@ -8,7 +8,6 @@ HnMVC is a super-lightweight mvc framework base on delegate and event, written s
 
 ![image](https://github.com/2011fuzhou/HnMVC/blob/master/HnMVC.png)
 
-
 ### To get started:
  **1.Create Contex**
   - Create a new empty gameobject and add a c# script component.
