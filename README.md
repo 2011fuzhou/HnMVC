@@ -6,7 +6,7 @@ HnMVC is a super-lightweight mvc framework base on delegate and event, written s
 - Event system
 - View mediation
 
-![image](https://github.com/2011fuzhou/HnMVC/blob/master/HnMVC.png)
+![image](https://github.com/2011fuzhou/HnMVC/raw/master/HnMVC.png)
 
 ### To get started:
  **1.Create Contex**
